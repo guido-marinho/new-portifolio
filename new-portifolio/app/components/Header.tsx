@@ -64,10 +64,10 @@ export default function Header() {
 
         <section className="flex-col mx-3">
           <div className="flex justify-start gap-2 items-center mt-1">
-            <h1 className=' text-xl'>Guilherme Marinho</h1>
+            <h1 className=' text-2xl font-extrabold'>Guilherme Marinho</h1>
             <MdVerified color={pink} size={20}/>
           </div>
-          <p>Desenvolvedor Fullstack</p>
+          <p className='font-light m-1'>Desenvolvedor de Software</p>
         </section>
 
         <section className="flex justify-between mt-5 mx-3">
