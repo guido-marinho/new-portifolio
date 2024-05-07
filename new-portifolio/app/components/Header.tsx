@@ -7,6 +7,7 @@ import { ImLinkedin, ImWhatsapp } from 'react-icons/im';
 import { IoIosLink, IoMdCalendar } from "react-icons/io";
 import { IoBag } from "react-icons/io5";
 
+import Link from 'next/link';
 import { MdVerified } from 'react-icons/md';
 import cover from '../images/cover.png';
 import profile from '../images/profile.png';
@@ -75,8 +76,8 @@ export default function Header() {
             <span>Disponível</span>
           </p > 
           <p className="flex gap-2 items-center">
-            <IoIosLink color='grey'/>
-            <span>/links</span>
+            <IoIosLink color={pink}/>
+            <Link href='/links' className='-text--pink'>/links</Link>
           </p >
           <p className="flex gap-2 items-center">
             <HiCake color='grey'/>
