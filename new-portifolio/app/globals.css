@@ -27,7 +27,7 @@
 
 :root {
   --pink: #cc0088;
-  --purple: #660066;
+  --blue: #d1e6fa;
   --bg-grey: #16191d;
   --font-color: #f5f6f7;
   --bg-oppacity: rgba(255, 255, 255, 0.05);
@@ -51,6 +51,7 @@
 * {
   margin: 0;
 }
+
 /*
   3. Allow percentage-based heights in the application
 */
@@ -58,12 +59,7 @@ html,
 body {
   height: 100%;
   font-family: 'Signika', sans-serif;
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--bg-grey);
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.5;
@@ -94,6 +90,7 @@ button,
 textarea,
 select {
   font: inherit;
+  color: var(--bg-grey);
 }
 /*
   8. Avoid text overflows

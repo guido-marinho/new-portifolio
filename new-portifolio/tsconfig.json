@@ -26,7 +26,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/components/css-plane/script.js"
+    "app/components/css-plane/script.js",
+    "app/contact/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
