@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Footer from './Footer';
 import Header from './Header';
 import Navbar from './navbar/Navbar';
 
@@ -23,6 +24,7 @@ export default function MainLayout({
           {children}
         </motion.div>
       </main>
+      <Footer />
     </>
   );
 }
