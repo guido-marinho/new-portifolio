@@ -31,9 +31,7 @@ export default function Header() {
       <div className="w-full rounded-md">
           <Image
           src={cover}
-          alt="Guilherme Marinho"
-          width={600}
-          height={100}
+          alt="cover image"
           className='rounded-md'
         />
       </div>
