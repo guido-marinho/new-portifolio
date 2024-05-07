@@ -18,7 +18,14 @@ const config: Config = {
         base: ['16px', '24px'],
         lg: ['20px', '28px'],
         xl: ['24px', '32px'],
-      }
+      },
+      colors: {
+        '--bg-opacity': 'rgba(255, 255, 255, 0.05)',
+        '--pink': '#cc0088',
+        '--purple': '#660066',
+        '--bg-grey': '#16191d',
+        '--font-color': '#f5f6f7',
+      },
     },
   },
   plugins: [],
