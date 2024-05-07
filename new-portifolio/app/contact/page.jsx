@@ -6,8 +6,6 @@ import Swal from 'sweetalert2';
 import MainLayout from '../components/MainLayout';
 import './Contact.css';
 
-
-
 export default function FormEmail() {
   const [name, setName] = useState('');
   const [email, setEmail] =  useState('');
@@ -15,13 +13,12 @@ export default function FormEmail() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    
-    // condições de validação
 
     const templateParams = {
       from_name: name,
       message: message,
       email: email,
+      from_email: email
     };
 
     emailjs.send('service_4k3zeis', 'template_feztn6c', templateParams, 'bh0epBqP8XrnRnwTl' )
