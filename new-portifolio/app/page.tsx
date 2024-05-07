@@ -1,14 +1,13 @@
 // import Image from "next/image";
 
-import Header from "./components/Header";
+import MainLayout from "./components/MainLayout";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <main>
-        <h1>Home</h1>
-      </main>
+      <MainLayout>
+        <h1>-----</h1>
+      </MainLayout>
     </>
   );
 }
