@@ -77,7 +77,7 @@ export default function Header() {
           </p > 
           <p className="flex gap-2 items-center">
             <IoIosLink color={pink}/>
-            <Link href='/links' className='-text--pink'>/links</Link>
+            <Link href='/links' className='text-custom-pink'>/links</Link>
           </p >
           <p className="flex gap-2 items-center">
             <HiCake color='grey'/>
