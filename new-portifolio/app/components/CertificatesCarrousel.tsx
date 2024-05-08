@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { GrNext, GrPrevious } from 'react-icons/gr';
 import { Certificates } from '../Types/Certificates';
-import estacioPython from './images/certificates/estacio-python.png';
-import trybeFS from './images/certificates/trybe-fullstack.png';
-import trybePython from './images/certificates/trybe-python.png';
+import estacioPython from '../images/certificates/estacio-python.png';
+import trybeFS from '../images/certificates/trybe-fullstack.png';
+import trybePython from '../images/certificates/trybe-python.png';
 
 const certificates: Certificates[] = [
   {
