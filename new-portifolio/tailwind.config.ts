@@ -22,7 +22,7 @@ const config: Config = {
       colors: {
         'custom-bg-opacity': 'rgba(255, 255, 255, 0.2)',
         'custom-pink': '#cc0088',
-        '--purple': '#660066',
+        '--blue': '#660066',
         '--bg-grey': '#16191d',
         '--font-color': '#f5f6f7',
       },

@@ -1,12 +1,13 @@
-// import Image from "next/image";
+'use client';
 
-import MainLayout from "./components/MainLayout";
+import CertificatesCarrousel from './components/CertificatesCarrousel';
+import MainLayout from './components/MainLayout';
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <MainLayout>
-        ...
+        <CertificatesCarrousel />
       </MainLayout>
     </>
   );
